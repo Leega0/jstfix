@@ -1,0 +1,53 @@
+.ui-tabs-nav {
+    display: -webkit-box;
+    width: 100%;
+}
+.ui-tabs-nav li {
+    border: 1px solid transparent;
+    border-width: 1px 0 1px 1px;
+    -webkit-box-flex:1;
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    height: 35px;
+    line-height: 35px;
+    white-space:nowrap;/*内容不换行*/
+    cursor: pointer;
+	background:url(../images/jst_03.png) top repeat-x;
+	}
+.ui-tabs-nav li a {
+    text-decoration: none;
+    color: #000;
+	font-family: "SimHei";
+    font-size: 18px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.ui-tabs-nav li:last-child {
+    border-width: 1px;
+}
+.ui-tabs-nav .ui-state-active a{
+border-bottom: 2px solid #DA291C;
+height: 35px;
+line-height: 35px;
+padding-bottom: 7px;
+color:#DA291C;
+}
+.ui-tabs-content {
+}
+.ui-tabs-content .ui-tabs-panel {
+    padding: 1em;
+}
+.ui-tabs-panel .ui-loading {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.ui-tabs-panel .ui-load-error {
+    color: red;
+    text-align: center;
+}

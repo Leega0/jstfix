@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px; padding:0px;}
+body{padding:0px; margin:0px; height:100%; text-transform:capitalize; font-family:"宋体"; font-size:12px; line-height:23px; background:#fff;
+min-width:320px;}
+ul,ol{List-style-type:none; List-style-image:none;}
+img {Border:0px; Vertical-align:middle;}
+input,textarea{outline-style:none;}
+textarea{resize: none;}
+a {text-decoration:none; color:#000;}
+a:hover{color:#da291c;}
+.hide{visibility:hidden;}
+.clearfix{zoom:1;}
+.clearfix:after{content:"."; display:block; height:0; visibility:hidden; clear:both;}
+.bk80{height:80px; overflow:hidden; font-size:0; clear:both;}
+.bk50{height:50px; overflow:hidden; font-size:0; clear:both;}
+.bk40{height:40px; overflow:hidden; font-size:0; clear:both;}
+.bk30{height:30px; overflow:hidden; font-size:0; clear:both;}
+.bk20{height:20px; overflow:hidden; font-size:0; clear:both;}
+.bk10{height:10px; overflow:hidden; font-size:0; clear:both;}
+/*start*/
+#nav ul li{ float:left; width:20%; height:39px; overflow:hidden; background:url(../images/jst_03.png) repeat-x; text-align:center;}
+#nav ul li a{  height:39px; line-height:39px; text-align:center; width:100%; font-size:18px; font-family:"SimHei";}
+#nav ul .cur a{ border-bottom:2px solid #da291c; color:#da291c; padding-bottom:7px;}
+.ui-tabs-content{ padding:0 20px; overflow:hidden;}
+.ui-tabs-content .intro{ padding:30px 0;}
+.ui-tabs-content .intro img{ float:left; overflow:hidden; display:block;}
+.ui-tabs-content .intro dl{ height:88px; overflow:hidden; padding-left:10px;}
+.ui-tabs-content .intro dt{ line-height:normal;}
+.ui-tabs-content .intro dt a{ font-size:18px; font-family:"SimHei";}
+.ui-tabs-content .intro dd a{font-size:14px; font-family:"SimHei"; color:#898989;}
+/*content*/
+.content ul li{ height:48px; line-height:48px; border-top:1px solid #dedfdf;}
+.content ul li a{font-size:16px; font-family:"SimHei"; display:block; height:48px;}
+.content ul>li>a:after{ content:url(../css/images/pa_09.png); float:right;}
+/*footer*/
+#footer .title{ height:36px; background:#a4e1ff; width:100%; line-height:36px; font-size:18px; font-family:"SimHei"; text-align:center;}
+#footer .ly_f1 {color: #32394C;font-family: "SimHei";font-size: 18px; padding-left:20px;}
+#footer .ly_f1:before{
+	content:url(../css/images/arrow.png)
+	}
+#footer .iput1 {border: 1px solid #E5E5E5; border-radius: 2px 2px 2px 2px;box-shadow: 1px -1px 3px rgba(238, 238, 238, 0.6);height: 30px;line-height: 32px;width: 89%;}
+#footer .textarea1 { border: 1px solid #E5E5E5;border-radius: 2px;box-shadow: 1px -1px 3px rgba(238, 238, 238, 0.6);height: 100px;line-height: 32px;width: 89%;}
+#footer .sub{ padding-right:6%;}
+#footer ul li{ float:left; width:31%;}
+#footer ul li a{ display:inline-table; float:left; height:72px; width:72px; margin:0 20px;}
+#footer li:nth-child(3){ margin-right:0;}
+#footer ul li .sy{ background:url(images/icon_03.png) no-repeat scroll center;}
+#footer ul li .zx{ background:url(images/icon_05.png) no-repeat scroll center;}
+#footer ul li .dh{ background:url(images/icon_06.png) no-repeat scroll center;}
+/*zhuanjia*/
+.ui-tabs-content .spintro{ padding:10px 0;}
+.ui-tabs-content .spintro img{ float:left; overflow:hidden; display:block;}
+.ui-tabs-content .spintro dl{ height:114px; overflow:hidden; padding-left:10px;}
+.ui-tabs-content .spintro dt{ line-height:normal; font-size:16px;font-family:"SimHei"; font-weight:bold;}
+.ui-tabs-content .spintro dd a{font-size:16px; font-family:"SimHei"; color:#000;}
+/*jibing*/
+.jibing{ text-align:center;}
+.jibing li a{ display:inline-table; width:28.5%; font-size:14px; font-family:"SimHei"; height:26px; line-height:26px; color:#000; float:left; margin-top:10px; margin-right:7%;
+background:url(images/jb_03.png) repeat-x; text-align:center; border:1px solid #ddd;}
+.jibing .none a{ margin-right:0;}
+/*wenzhang*/
+.wenzhang .img{ text-align:center;}
+.wenzhang .w-content h3{ font-size:16px;font-family:"SimHei";}
+.wenzhang .w-content p{font-size:16px;font-family:"SimHei"; text-indent:24px;}
+.wenzhang .w-content li a{font-size:16px;font-family:"SimHei"; }
